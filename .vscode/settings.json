@@ -1,0 +1,6 @@
+{
+    "Codegeex.DisabledFor": {
+        "javascript": true,
+        "javascriptreact": true
+    }
+}
