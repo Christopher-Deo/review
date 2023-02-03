@@ -52,12 +52,9 @@ button to clear list of completed tasks
 */
 
 const ToDo = () => {
-    //set initial state and initial variables
-    const [text, setText] = useState([]);
-    const [task, setTask] = useState(TASKS);
-    const [subTask, setSubTask] = useState([]);
-    //setting up initial TASK object
-    const TASKS = [
+    
+    
+    const tasks = [
         {
             task: "Clean bedroom",
             subtasks: ["Do laundry", "Organize desk", "Wipe floors"],
@@ -71,6 +68,12 @@ const ToDo = () => {
             subtasks: ["Choose tech stack", "Design pages", "Develop", "Publish"],
         },
     ];
+    //set initial state and initial variables
+    const [text, setText] = useState();
+    const [task, setTask] = useState();
+    const [subTask, setSubTask] = useState();
+    //setting up initial TASK object
+    
 
 
 
